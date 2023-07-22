@@ -12,10 +12,17 @@ else:
 
 ##
 
-s=int(input("введите сумму"))
-p=int(input("введите произведение"))
+s=int(input("введите сумму "))
+p=int(input("введите произведение "))
 
 for i in range(s):
     if i*(s-i)==p:
         print(f'первое число ="{i}",второе число ="{s-i}"')
         break
+
+##
+x=1
+n=int(input("введите n "))
+while x<=n:
+    print(x)
+    x=x*2
